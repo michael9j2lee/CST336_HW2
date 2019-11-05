@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>HW 2 - Rock Paper Scissors</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+        <script type="text/javascript" src = "js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bubblegum+Sans" />
+        
+        
+    </head>
+
+    <body>
+        
+        <header>Rock Paper Scissors</header>
+        <hr class="style-three">
+        
+        <div id="name">
+        <h3>Input your Name</h3>
+            <input type="text" id="inputName">
+        </div>
+        <br></br>
+        
+        <h2 id="status">WELCOME to Rock, Paper, Scissors!</h2>
+        <div id="playing_field">
+            <img class= "img-rounded" src ="img/rpc.jpg" alt="Picture of RPC" width = "500" hspace="25" id = "player"/>
+            <img class= "img-rounded" src ="img/rpc.jpg" alt="Picture of RPC" width = "500" hspace="25" id = "computer"/>
+        </div>
+        <h3>CHOOSE ONE!</h3>
+        <div id="choices">
+            <img class= "choice_rcp" src="img/rock.png" alt="Picture of Rock" id="rock"/>
+            <img class= "choice_rcp" src="img/paper.jpg" alt="Picture of Paper" id="paper"/>
+            <img class= "choice_rcp" src="img/scissor.png" alt="Picture of Scissor" id="scissor"/>
+        </div>
+        <div id="buttonScore">
+            <button type="button" class="btn btn-outline-light" id="playButton">Throw!</button>
+            <h3 id="totalWins"></h3>
+            <h3 id="totalLose"></h3>
+            <h3 id="totalTie"></h3>
+
+        </div>
+    </body>
+    
+    <footer>
+        <hr class="style-three">
+        &copy;Michael Lee 2019<br />
+    </footer>
+</html>

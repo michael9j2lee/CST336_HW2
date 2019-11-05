@@ -1,0 +1,91 @@
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}    
+
+header, main, nav, footer, body{
+    text-align: center;
+}
+
+h1, h2 , h3, header{ 
+    color: white;
+    text-align: center;
+    font-family: "Bubblegum Sans"; 
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 35px; 
+    font-style: normal; 
+    font-variant: small-caps; font-weight: 700; 
+    line-height: 45.5px; 
+    font-weight: 700;
+} 
+
+header{
+    font-size: 75px;
+}
+
+footer {
+    font-size: 1.0em;
+    color: 	black;
+}
+body {
+    background-image: linear-gradient(gray, #00BFFF);
+}
+
+.img-rounded{
+  border-radius: 25px;
+  background: #48D1CC;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.choice_rcp{
+  border-radius: 25px;
+  background: #48D1CC;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+#choices{
+    text-align:center;
+    flex-direction:row;
+    width: 50%;
+    margin: auto;
+}
+
+#playing_field{
+    flex-direction:row;
+    text-align:center;
+    margin: auto;
+    padding: 20px;
+}
+
+#buttonScore{
+    flex-direction:column;
+    text-align:center;
+    margin: auto;
+}
+
+#name{
+    text-align:center;
+    margin:auto;
+}
+
+hr.style-three {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-three:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 5px 0;
+    border-radius: 20px;
+}
